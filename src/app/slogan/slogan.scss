@@ -1,0 +1,37 @@
+.main{
+    height: 100vh;
+
+    .body, .mask{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #afa18f;
+        font-size: 64px;
+        line-height: 66px;
+        cursor: default;
+        font-family: 'Avant Garde Book BT';
+    }
+    p{
+        width: 1000px;
+    }
+
+    
+    .mask{
+        position: absolute;
+        mask-image: url('./font/mask.svg');
+        background: rgb(217, 216, 216);
+        mask-repeat: no-repeat;
+        mask-position: 50%;
+        mask-size: 800px;
+        color: black;
+    }
+}
+
+@font-face {
+    font-family: 'Avant Garde Book BT';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./font/AVGARDD_2.woff') format('woff');
+}

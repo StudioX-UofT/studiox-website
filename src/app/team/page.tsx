@@ -7,6 +7,7 @@ import { useState } from 'react';
 export default function Page() {
     return (
         <>
+            <h1> team </h1>
             <div className="team-grid">
                 <div className="row">
                     <div className="column">
@@ -22,7 +23,7 @@ export default function Page() {
                             <div className="container">
                                 <h2>Benji Jacob ®</h2>
                                 <p className="title">President</p>
-                                <p><button className="button">Contact</button></p>
+                                <p><a href="" className="button">Contact</a></p>
                             </div>
                         </div>
                     </div>
@@ -40,7 +41,7 @@ export default function Page() {
                             <div className="container">
                                 <h2>Trisha Banerjee ®</h2>
                                 <p className="title">VP External</p>
-                                <p><button className="button">Contact</button></p>
+                                <p><a href="" className="button">Contact</a></p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +59,7 @@ export default function Page() {
                             <div className="container">
                                 <h2>Treasure Fatile ®</h2>
                                 <p className="title">VP Internal</p>
-                                <p><button className="button">Contact</button></p>
+                                <p><a href="" className="button">Contact</a></p>
                             </div>
                         </div>
                     </div>
@@ -77,7 +78,7 @@ export default function Page() {
                             <div className="container">
                                 <h2>Kelly Nguyen ®</h2>
                                 <p className="title">VP Finance</p>
-                                <p><button className="button">Contact</button></p>
+                                <p><a href="" className="button">Contact</a></p>
                             </div>
                         </div>
                     </div>
@@ -95,7 +96,7 @@ export default function Page() {
                             <div className="container">
                                 <h2>Tina Cheng ®</h2>
                                 <p className="title">Marketing Director</p>
-                                <p><button className="button">Contact</button></p>
+                                <p><a href="" className="button">Contact</a></p>
                             </div>
                         </div>
                     </div>
@@ -113,7 +114,7 @@ export default function Page() {
                             <div className="container">
                                 <h2>Ruby Yip ®</h2>
                                 <p className="title">Marketing Director</p>
-                                <p><button className="button">Contact</button></p>
+                                <p><a href="" className="button">Contact</a></p>
                             </div>
                         </div>
                     </div>
@@ -132,7 +133,7 @@ export default function Page() {
                             <div className="container">
                                 <h2>Paris Phan ®</h2>
                                 <p className="title">Marketing Director</p>
-                                <p><button className="button">Contact</button></p>
+                                <p><a href="" className="button">Contact</a></p>
                             </div>
                         </div>
                     </div>

@@ -7,7 +7,6 @@ import { useState } from 'react';
 export default function Page() {
     return (
         <>
-            <h1> team </h1>
             <div className="team-grid">
                 <div className="row">
                     <div className="column">

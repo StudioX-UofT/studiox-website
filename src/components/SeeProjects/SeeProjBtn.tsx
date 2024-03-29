@@ -7,7 +7,7 @@ const SeeProjectBtn = () => {
     return (
         <div className="svg-container">
             <img src={ SeeProj } />
-            {/* <a href = > */}
+            {/* <a href = add proper link later on> */}
         </div>
     )
 }

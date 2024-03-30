@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.projectDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+
+.projectDetails-bgImg {
+    position: absolute;
+    filter: brightness(0.7);
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.projectDetails-titleSection {
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.projectDetails-title {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectDetails-title > h1 {
+    font-size: 85px;
+}
+
+.projectDetails-title > h2 {
+    font-size: 35px;
+}
+
+.projectDetails-title > h3 {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+    .projectDetails-titleSection {
+        width: 90%;
+    }
+    .projectDetails-title > h1 {
+        font-size: 45px;
+    }
+
+    .projectDetails-title > h2 {
+        font-size: 25px;
+    }
+
+    .projectDetails-title > h3 {
+        font-size: 15px;
+    }
+}

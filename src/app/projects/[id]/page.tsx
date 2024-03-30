@@ -2,14 +2,14 @@ import Image from "next/image";
 import "@/app/projects/[id]/ProjectDetails.css";
 
 type ProjectData = {
-    id: string;
+    id: number;
     name: string;
     date: string;
     description: string;
-    images: Array<String>;
+    images: Array<string>;
 };
 
-function getData(id: string) {
+function getData(id: number): ProjectData {
     // implement this when backend implemented
 
     return {
@@ -28,7 +28,7 @@ function getData(id: string) {
 export default function ProjectDetailsPage({
     params,
 }: {
-    params: { id: string };
+    params: { id: number };
 }) {
     // replace line below with whatever function we need to get data
     const data = getData(params.id);

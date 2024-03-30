@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 .projectDetails {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100vw;
     height: 100vh;
 
@@ -23,16 +20,16 @@
 .projectDetails-titleSection {
     color: white;
     text-align: center;
-    width: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .projectDetails-title {
-    width: 100%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    width: 60%;
 }
 
 .projectDetails-title > h1 {
@@ -47,10 +44,21 @@
     font-size: 22px;
 }
 
+.projectDetails-imageSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projectDetails-image {
+    width: 60vw;
+    height: 60vw;
+    object-fit: cover;
+    margin: 10vh 0 10vh 0;
+}
+
 @media screen and (max-width: 768px) {
-    .projectDetails-titleSection {
-        width: 90%;
-    }
     .projectDetails-title > h1 {
         font-size: 45px;
     }

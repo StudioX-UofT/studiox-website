@@ -35,17 +35,26 @@ export default function ProjectDetailsPage({
 
     return (
         <div className="projectDetails">
-            <img
-                className="projectDetails-bgImg"
-                src={data.images[0]}
-                alt="img1"
-            />
             <div className="projectDetails-titleSection">
+                <img
+                    className="projectDetails-bgImg"
+                    src={data.images[0]}
+                    alt="img1"
+                />
                 <div className="projectDetails-title">
                     <h1>{data.name}</h1>
                     <h2>{data.date}</h2>
                     <h3>{data.description}</h3>
                 </div>
+            </div>
+            <div className="projectDetails-imageSection">
+                {data.images.map((i) => (
+                    <img
+                        src={i}
+                        alt="project-detail-image"
+                        className="projectDetails-image"
+                    />
+                ))}
             </div>
         </div>
     );
